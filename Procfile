@@ -1,2 +1,2 @@
 release: python manage.py migrate --noinput
-web: gunicorn chara_info.wsgi
+web: gunicorn physics-lsu.wsgi
